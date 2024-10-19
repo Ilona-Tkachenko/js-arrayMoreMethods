@@ -18,7 +18,6 @@ function getPopularCategories(products) {
   return uniqueCategories;
 }
 
-
 // Приклад використання:
 const products = [
   { name: 'Phone', category: 'Electronics', sales: 10 },
@@ -29,6 +28,7 @@ const products = [
   { name: 'Shoes', category: 'Footwear', sales: 6 },
   { name: 'Watch', category: 'Electronics', sales: 7 }
 ];
+
 
 console.log(getPopularCategories(products)); 
 module.exports = getPopularCategories;
