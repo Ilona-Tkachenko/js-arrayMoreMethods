@@ -18,6 +18,7 @@ function getPopularCategories(products) {
   return uniqueCategories;
 }
 
+
 // Приклад використання:
 const products = [
   { name: 'Phone', category: 'Electronics', sales: 10 },
